@@ -1,0 +1,12 @@
+{
+  "mad_lads": {
+    "kind": 1,
+    "value": "REPLACE_WITH_UI_EXTRACTED_ALLOWLIST_PUBLIC_KEY",
+    "cosignerAnnotation": [
+      0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0
+    ]
+  }
+}

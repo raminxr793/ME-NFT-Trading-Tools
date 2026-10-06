@@ -1,0 +1,29 @@
+{
+  "name": "me-nft-trading-tools",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Solana Magic Eden MMM Shared Escrow monitoring and personal trading automation tools",
+  "main": "me_nft_trader.js",
+  "scripts": {
+    "start": "node me_nft_trader.js",
+    "api:health": "node me_nft_trader_api.js --health",
+    "check": "node --check me_nft_trader.js && node --check me_nft_trader_api.js",
+    "verify:collection": "node verify_mmm_collection_config.js"
+  },
+  "keywords": [
+    "solana",
+    "magic-eden",
+    "mmm",
+    "nft",
+    "shared-escrow",
+    "trading-tools"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@coral-xyz/anchor": "0.29.0",
+    "@coralcube-oss/mmm": "latest",
+    "@solana/web3.js": "latest",
+    "bs58": "latest",
+    "dotenv": "latest"
+  }
+}
